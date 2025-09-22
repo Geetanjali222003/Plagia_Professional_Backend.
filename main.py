@@ -4,7 +4,9 @@ from fastapi.responses import JSONResponse
 import fitz  # PyMuPDF
 from transformers import pipeline
 from sentence_transformers import SentenceTransformer, util
-from ddgs import DDGS
+# from ddgs import DDGS
+from duckduckgo_search import DDGS
+
 
 app = FastAPI()
 
